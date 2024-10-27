@@ -4,10 +4,10 @@
 
 Для запуска необходимо:
 1. Установить зависимости:
+
+ ```cd SILARAG/rag```
    
-   ```cd SILARAG/rag```
-   
-  ```pip install -r requirements.txt ```
+```pip install -r requirements.txt```
  
 2. Запустить файл конфигурации базы данных пользователей: python3 prep_users_db.py
 3. Запустить модуль мониторинга обновления баз данных пользователей и базы знаний для модели: python3 update_db.py
